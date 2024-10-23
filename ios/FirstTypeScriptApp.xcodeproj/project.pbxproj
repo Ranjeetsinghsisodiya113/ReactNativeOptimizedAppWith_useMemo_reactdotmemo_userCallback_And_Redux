@@ -7,13 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* FirstTypeScriptAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* FirstTypeScriptAppTests.m */; };
-		0C80B921A6F3F58F76C31292 /* libPods-FirstTypeScriptApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-FirstTypeScriptApp.a */; };
+		00E356F31AD99517003FC87E /* OrigionAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* OrigionAppTests.m */; };
+		0C80B921A6F3F58F76C31292 /* libPods-OrigionApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-OrigionApp.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		7699B88040F8A987B510C191 /* libPods-FirstTypeScriptApp-FirstTypeScriptAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-FirstTypeScriptApp-FirstTypeScriptAppTests.a */; };
+		7699B88040F8A987B510C191 /* libPods-OrigionApp-OrigionAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-OrigionApp-OrigionAppTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		2AFF0C8C1786409EA8DB3633 /* Montserrat-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9DF3410F66C84901809C83D6 /* Montserrat-Black.ttf */; };
+		540E7B58590A4C71B7F291FA /* Montserrat-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4E3E4F63776E497DB2C3299D /* Montserrat-BlackItalic.ttf */; };
+		9577E3993F0F40AD87761D22 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 487359CF8667411BB58CA0E6 /* Montserrat-Bold.ttf */; };
+		DD77C8E29FFB4A18ABA6A399 /* Montserrat-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0C8F991068BC49CDBE7CFBC6 /* Montserrat-BoldItalic.ttf */; };
+		18826E0186244949A92D19C3 /* Montserrat-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A6B3858E61B843778769404D /* Montserrat-ExtraBold.ttf */; };
+		E3C4BCB6CC6B49A69E4B70FA /* Montserrat-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 289CAC29498F4217A361CD87 /* Montserrat-ExtraBoldItalic.ttf */; };
+		B4B0E0B21C9944F08B278B7B /* Montserrat-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 57266B02170F4C599694FC9D /* Montserrat-ExtraLight.ttf */; };
+		D8191E6416E44A578F4C9437 /* Montserrat-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7989444C5AEF446AB8819A1A /* Montserrat-ExtraLightItalic.ttf */; };
+		3D8C874C67EC40F8BED8BB36 /* Montserrat-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4191CBBAD2634656B1F0FA73 /* Montserrat-Italic.ttf */; };
+		E397AD6B4788490E85453915 /* Montserrat-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5EE04C45A29242E2B484DDFB /* Montserrat-Light.ttf */; };
+		72C50BBAD4C94595AD26018B /* Montserrat-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 702C9D9BF42B40BA9E3863EC /* Montserrat-LightItalic.ttf */; };
+		218584BBA93E40EE886E99FD /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E35D449B0F6F48ADA457B4C9 /* Montserrat-Medium.ttf */; };
+		6EE2707F352045FC9B2B2136 /* Montserrat-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4461963842D5444786647B64 /* Montserrat-MediumItalic.ttf */; };
+		FB18F86F58404704B52B97A4 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A79022EC80184E1D9BBAF7DA /* Montserrat-Regular.ttf */; };
+		C24C789834D54344AEA83BC0 /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B710F914509F4147A849FBAB /* Montserrat-SemiBold.ttf */; };
+		961C10AED81D4423982684B9 /* Montserrat-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 60C631AFDE6F4FB59A96D6CE /* Montserrat-SemiBoldItalic.ttf */; };
+		2346654FBB1D414AB26D9B62 /* Montserrat-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1DF048B92C7A4F3293C7DBDE /* Montserrat-Thin.ttf */; };
+		B268A46E628C41E7BBAA54AE /* Montserrat-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A154045913664AB5954ED9C2 /* Montserrat-ThinItalic.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -22,29 +40,47 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = FirstTypeScriptApp;
+			remoteInfo = OrigionApp;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00E356EE1AD99517003FC87E /* FirstTypeScriptAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirstTypeScriptAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* OrigionAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OrigionAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* FirstTypeScriptAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstTypeScriptAppTests.m; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* FirstTypeScriptApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstTypeScriptApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = FirstTypeScriptApp/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = FirstTypeScriptApp/AppDelegate.mm; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = FirstTypeScriptApp/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = FirstTypeScriptApp/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = FirstTypeScriptApp/main.m; sourceTree = "<group>"; };
-	    13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = FirstTypeScriptApp/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
-		19F6CBCC0A4E27FBF8BF4A61 /* libPods-FirstTypeScriptApp-FirstTypeScriptAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FirstTypeScriptApp-FirstTypeScriptAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3B4392A12AC88292D35C810B /* Pods-FirstTypeScriptApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirstTypeScriptApp.debug.xcconfig"; path = "Target Support Files/Pods-FirstTypeScriptApp/Pods-FirstTypeScriptApp.debug.xcconfig"; sourceTree = "<group>"; };
-		5709B34CF0A7D63546082F79 /* Pods-FirstTypeScriptApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirstTypeScriptApp.release.xcconfig"; path = "Target Support Files/Pods-FirstTypeScriptApp/Pods-FirstTypeScriptApp.release.xcconfig"; sourceTree = "<group>"; };
-		5B7EB9410499542E8C5724F5 /* Pods-FirstTypeScriptApp-FirstTypeScriptAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirstTypeScriptApp-FirstTypeScriptAppTests.debug.xcconfig"; path = "Target Support Files/Pods-FirstTypeScriptApp-FirstTypeScriptAppTests/Pods-FirstTypeScriptApp-FirstTypeScriptAppTests.debug.xcconfig"; sourceTree = "<group>"; };
-		5DCACB8F33CDC322A6C60F78 /* libPods-FirstTypeScriptApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FirstTypeScriptApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = FirstTypeScriptApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		89C6BE57DB24E9ADA2F236DE /* Pods-FirstTypeScriptApp-FirstTypeScriptAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirstTypeScriptApp-FirstTypeScriptAppTests.release.xcconfig"; path = "Target Support Files/Pods-FirstTypeScriptApp-FirstTypeScriptAppTests/Pods-FirstTypeScriptApp-FirstTypeScriptAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* OrigionAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OrigionAppTests.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* OrigionApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OrigionApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = OrigionApp/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = OrigionApp/AppDelegate.mm; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = OrigionApp/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = OrigionApp/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = OrigionApp/main.m; sourceTree = "<group>"; };
+		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = OrigionApp/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		19F6CBCC0A4E27FBF8BF4A61 /* libPods-OrigionApp-OrigionAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OrigionApp-OrigionAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B4392A12AC88292D35C810B /* Pods-OrigionApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OrigionApp.debug.xcconfig"; path = "Target Support Files/Pods-OrigionApp/Pods-OrigionApp.debug.xcconfig"; sourceTree = "<group>"; };
+		5709B34CF0A7D63546082F79 /* Pods-OrigionApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OrigionApp.release.xcconfig"; path = "Target Support Files/Pods-OrigionApp/Pods-OrigionApp.release.xcconfig"; sourceTree = "<group>"; };
+		5B7EB9410499542E8C5724F5 /* Pods-OrigionApp-OrigionAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OrigionApp-OrigionAppTests.debug.xcconfig"; path = "Target Support Files/Pods-OrigionApp-OrigionAppTests/Pods-OrigionApp-OrigionAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5DCACB8F33CDC322A6C60F78 /* libPods-OrigionApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OrigionApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = OrigionApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		89C6BE57DB24E9ADA2F236DE /* Pods-OrigionApp-OrigionAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OrigionApp-OrigionAppTests.release.xcconfig"; path = "Target Support Files/Pods-OrigionApp-OrigionAppTests/Pods-OrigionApp-OrigionAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		9DF3410F66C84901809C83D6 /* Montserrat-Black.ttf */ = {isa = PBXFileReference; name = "Montserrat-Black.ttf"; path = "../assets/fonts/Montserrat-Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4E3E4F63776E497DB2C3299D /* Montserrat-BlackItalic.ttf */ = {isa = PBXFileReference; name = "Montserrat-BlackItalic.ttf"; path = "../assets/fonts/Montserrat-BlackItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		487359CF8667411BB58CA0E6 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; name = "Montserrat-Bold.ttf"; path = "../assets/fonts/Montserrat-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0C8F991068BC49CDBE7CFBC6 /* Montserrat-BoldItalic.ttf */ = {isa = PBXFileReference; name = "Montserrat-BoldItalic.ttf"; path = "../assets/fonts/Montserrat-BoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A6B3858E61B843778769404D /* Montserrat-ExtraBold.ttf */ = {isa = PBXFileReference; name = "Montserrat-ExtraBold.ttf"; path = "../assets/fonts/Montserrat-ExtraBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		289CAC29498F4217A361CD87 /* Montserrat-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; name = "Montserrat-ExtraBoldItalic.ttf"; path = "../assets/fonts/Montserrat-ExtraBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		57266B02170F4C599694FC9D /* Montserrat-ExtraLight.ttf */ = {isa = PBXFileReference; name = "Montserrat-ExtraLight.ttf"; path = "../assets/fonts/Montserrat-ExtraLight.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		7989444C5AEF446AB8819A1A /* Montserrat-ExtraLightItalic.ttf */ = {isa = PBXFileReference; name = "Montserrat-ExtraLightItalic.ttf"; path = "../assets/fonts/Montserrat-ExtraLightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4191CBBAD2634656B1F0FA73 /* Montserrat-Italic.ttf */ = {isa = PBXFileReference; name = "Montserrat-Italic.ttf"; path = "../assets/fonts/Montserrat-Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5EE04C45A29242E2B484DDFB /* Montserrat-Light.ttf */ = {isa = PBXFileReference; name = "Montserrat-Light.ttf"; path = "../assets/fonts/Montserrat-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		702C9D9BF42B40BA9E3863EC /* Montserrat-LightItalic.ttf */ = {isa = PBXFileReference; name = "Montserrat-LightItalic.ttf"; path = "../assets/fonts/Montserrat-LightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E35D449B0F6F48ADA457B4C9 /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; name = "Montserrat-Medium.ttf"; path = "../assets/fonts/Montserrat-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4461963842D5444786647B64 /* Montserrat-MediumItalic.ttf */ = {isa = PBXFileReference; name = "Montserrat-MediumItalic.ttf"; path = "../assets/fonts/Montserrat-MediumItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A79022EC80184E1D9BBAF7DA /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; name = "Montserrat-Regular.ttf"; path = "../assets/fonts/Montserrat-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B710F914509F4147A849FBAB /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; name = "Montserrat-SemiBold.ttf"; path = "../assets/fonts/Montserrat-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		60C631AFDE6F4FB59A96D6CE /* Montserrat-SemiBoldItalic.ttf */ = {isa = PBXFileReference; name = "Montserrat-SemiBoldItalic.ttf"; path = "../assets/fonts/Montserrat-SemiBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1DF048B92C7A4F3293C7DBDE /* Montserrat-Thin.ttf */ = {isa = PBXFileReference; name = "Montserrat-Thin.ttf"; path = "../assets/fonts/Montserrat-Thin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A154045913664AB5954ED9C2 /* Montserrat-ThinItalic.ttf */ = {isa = PBXFileReference; name = "Montserrat-ThinItalic.ttf"; path = "../assets/fonts/Montserrat-ThinItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7699B88040F8A987B510C191 /* libPods-FirstTypeScriptApp-FirstTypeScriptAppTests.a in Frameworks */,
+				7699B88040F8A987B510C191 /* libPods-OrigionApp-OrigionAppTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,20 +96,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C80B921A6F3F58F76C31292 /* libPods-FirstTypeScriptApp.a in Frameworks */,
+				0C80B921A6F3F58F76C31292 /* libPods-OrigionApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* FirstTypeScriptAppTests */ = {
+		00E356EF1AD99517003FC87E /* OrigionAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* FirstTypeScriptAppTests.m */,
+				00E356F21AD99517003FC87E /* OrigionAppTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = FirstTypeScriptAppTests;
+			path = OrigionAppTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -84,7 +120,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* FirstTypeScriptApp */ = {
+		13B07FAE1A68108700A75B9A /* OrigionApp */ = {
 			isa = PBXGroup;
 			children = (
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
@@ -95,15 +131,15 @@
 				13B07FB71A68108700A75B9A /* main.m */,
 				13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */,
 			);
-			name = FirstTypeScriptApp;
+			name = OrigionApp;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				5DCACB8F33CDC322A6C60F78 /* libPods-FirstTypeScriptApp.a */,
-				19F6CBCC0A4E27FBF8BF4A61 /* libPods-FirstTypeScriptApp-FirstTypeScriptAppTests.a */,
+				5DCACB8F33CDC322A6C60F78 /* libPods-OrigionApp.a */,
+				19F6CBCC0A4E27FBF8BF4A61 /* libPods-OrigionApp-OrigionAppTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -118,12 +154,13 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* FirstTypeScriptApp */,
+				13B07FAE1A68108700A75B9A /* OrigionApp */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* FirstTypeScriptAppTests */,
+				00E356EF1AD99517003FC87E /* OrigionAppTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				C2662C49402E4460B634F398 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -133,8 +170,8 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* FirstTypeScriptApp.app */,
-				00E356EE1AD99517003FC87E /* FirstTypeScriptAppTests.xctest */,
+				13B07F961A680F5B00A75B9A /* OrigionApp.app */,
+				00E356EE1AD99517003FC87E /* OrigionAppTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -142,20 +179,46 @@
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3B4392A12AC88292D35C810B /* Pods-FirstTypeScriptApp.debug.xcconfig */,
-				5709B34CF0A7D63546082F79 /* Pods-FirstTypeScriptApp.release.xcconfig */,
-				5B7EB9410499542E8C5724F5 /* Pods-FirstTypeScriptApp-FirstTypeScriptAppTests.debug.xcconfig */,
-				89C6BE57DB24E9ADA2F236DE /* Pods-FirstTypeScriptApp-FirstTypeScriptAppTests.release.xcconfig */,
+				3B4392A12AC88292D35C810B /* Pods-OrigionApp.debug.xcconfig */,
+				5709B34CF0A7D63546082F79 /* Pods-OrigionApp.release.xcconfig */,
+				5B7EB9410499542E8C5724F5 /* Pods-OrigionApp-OrigionAppTests.debug.xcconfig */,
+				89C6BE57DB24E9ADA2F236DE /* Pods-OrigionApp-OrigionAppTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		C2662C49402E4460B634F398 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				9DF3410F66C84901809C83D6 /* Montserrat-Black.ttf */,
+				4E3E4F63776E497DB2C3299D /* Montserrat-BlackItalic.ttf */,
+				487359CF8667411BB58CA0E6 /* Montserrat-Bold.ttf */,
+				0C8F991068BC49CDBE7CFBC6 /* Montserrat-BoldItalic.ttf */,
+				A6B3858E61B843778769404D /* Montserrat-ExtraBold.ttf */,
+				289CAC29498F4217A361CD87 /* Montserrat-ExtraBoldItalic.ttf */,
+				57266B02170F4C599694FC9D /* Montserrat-ExtraLight.ttf */,
+				7989444C5AEF446AB8819A1A /* Montserrat-ExtraLightItalic.ttf */,
+				4191CBBAD2634656B1F0FA73 /* Montserrat-Italic.ttf */,
+				5EE04C45A29242E2B484DDFB /* Montserrat-Light.ttf */,
+				702C9D9BF42B40BA9E3863EC /* Montserrat-LightItalic.ttf */,
+				E35D449B0F6F48ADA457B4C9 /* Montserrat-Medium.ttf */,
+				4461963842D5444786647B64 /* Montserrat-MediumItalic.ttf */,
+				A79022EC80184E1D9BBAF7DA /* Montserrat-Regular.ttf */,
+				B710F914509F4147A849FBAB /* Montserrat-SemiBold.ttf */,
+				60C631AFDE6F4FB59A96D6CE /* Montserrat-SemiBoldItalic.ttf */,
+				1DF048B92C7A4F3293C7DBDE /* Montserrat-Thin.ttf */,
+				A154045913664AB5954ED9C2 /* Montserrat-ThinItalic.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* FirstTypeScriptAppTests */ = {
+		00E356ED1AD99517003FC87E /* OrigionAppTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "FirstTypeScriptAppTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "OrigionAppTests" */;
 			buildPhases = (
 				A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -169,14 +232,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = FirstTypeScriptAppTests;
-			productName = FirstTypeScriptAppTests;
-			productReference = 00E356EE1AD99517003FC87E /* FirstTypeScriptAppTests.xctest */;
+			name = OrigionAppTests;
+			productName = OrigionAppTests;
+			productReference = 00E356EE1AD99517003FC87E /* OrigionAppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* FirstTypeScriptApp */ = {
+		13B07F861A680F5B00A75B9A /* OrigionApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "FirstTypeScriptApp" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "OrigionApp" */;
 			buildPhases = (
 				C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */,
 				13B07F871A680F5B00A75B9A /* Sources */,
@@ -190,9 +253,9 @@
 			);
 			dependencies = (
 			);
-			name = FirstTypeScriptApp;
-			productName = FirstTypeScriptApp;
-			productReference = 13B07F961A680F5B00A75B9A /* FirstTypeScriptApp.app */;
+			name = OrigionApp;
+			productName = OrigionApp;
+			productReference = 13B07F961A680F5B00A75B9A /* OrigionApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -212,7 +275,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "FirstTypeScriptApp" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "OrigionApp" */;
 			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -225,8 +288,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* FirstTypeScriptApp */,
-				00E356ED1AD99517003FC87E /* FirstTypeScriptAppTests */,
+				13B07F861A680F5B00A75B9A /* OrigionApp */,
+				00E356ED1AD99517003FC87E /* OrigionAppTests */,
 			);
 		};
 /* End PBXProject section */
@@ -245,6 +308,24 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				2AFF0C8C1786409EA8DB3633 /* Montserrat-Black.ttf in Resources */,
+				540E7B58590A4C71B7F291FA /* Montserrat-BlackItalic.ttf in Resources */,
+				9577E3993F0F40AD87761D22 /* Montserrat-Bold.ttf in Resources */,
+				DD77C8E29FFB4A18ABA6A399 /* Montserrat-BoldItalic.ttf in Resources */,
+				18826E0186244949A92D19C3 /* Montserrat-ExtraBold.ttf in Resources */,
+				E3C4BCB6CC6B49A69E4B70FA /* Montserrat-ExtraBoldItalic.ttf in Resources */,
+				B4B0E0B21C9944F08B278B7B /* Montserrat-ExtraLight.ttf in Resources */,
+				D8191E6416E44A578F4C9437 /* Montserrat-ExtraLightItalic.ttf in Resources */,
+				3D8C874C67EC40F8BED8BB36 /* Montserrat-Italic.ttf in Resources */,
+				E397AD6B4788490E85453915 /* Montserrat-Light.ttf in Resources */,
+				72C50BBAD4C94595AD26018B /* Montserrat-LightItalic.ttf in Resources */,
+				218584BBA93E40EE886E99FD /* Montserrat-Medium.ttf in Resources */,
+				6EE2707F352045FC9B2B2136 /* Montserrat-MediumItalic.ttf in Resources */,
+				FB18F86F58404704B52B97A4 /* Montserrat-Regular.ttf in Resources */,
+				C24C789834D54344AEA83BC0 /* Montserrat-SemiBold.ttf in Resources */,
+				961C10AED81D4423982684B9 /* Montserrat-SemiBoldItalic.ttf in Resources */,
+				2346654FBB1D414AB26D9B62 /* Montserrat-Thin.ttf in Resources */,
+				B268A46E628C41E7BBAA54AE /* Montserrat-ThinItalic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,15 +354,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-FirstTypeScriptApp/Pods-FirstTypeScriptApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-OrigionApp/Pods-OrigionApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-FirstTypeScriptApp/Pods-FirstTypeScriptApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-OrigionApp/Pods-OrigionApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FirstTypeScriptApp/Pods-FirstTypeScriptApp-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OrigionApp/Pods-OrigionApp-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */ = {
@@ -299,7 +380,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-FirstTypeScriptApp-FirstTypeScriptAppTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-OrigionApp-OrigionAppTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -321,7 +402,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-FirstTypeScriptApp-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-OrigionApp-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -334,15 +415,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-FirstTypeScriptApp-FirstTypeScriptAppTests/Pods-FirstTypeScriptApp-FirstTypeScriptAppTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-OrigionApp-OrigionAppTests/Pods-OrigionApp-OrigionAppTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-FirstTypeScriptApp-FirstTypeScriptAppTests/Pods-FirstTypeScriptApp-FirstTypeScriptAppTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-OrigionApp-OrigionAppTests/Pods-OrigionApp-OrigionAppTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FirstTypeScriptApp-FirstTypeScriptAppTests/Pods-FirstTypeScriptApp-FirstTypeScriptAppTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OrigionApp-OrigionAppTests/Pods-OrigionApp-OrigionAppTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
@@ -351,15 +432,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-FirstTypeScriptApp/Pods-FirstTypeScriptApp-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-OrigionApp/Pods-OrigionApp-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-FirstTypeScriptApp/Pods-FirstTypeScriptApp-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-OrigionApp/Pods-OrigionApp-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FirstTypeScriptApp/Pods-FirstTypeScriptApp-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OrigionApp/Pods-OrigionApp-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */ = {
@@ -368,15 +449,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-FirstTypeScriptApp-FirstTypeScriptAppTests/Pods-FirstTypeScriptApp-FirstTypeScriptAppTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-OrigionApp-OrigionAppTests/Pods-OrigionApp-OrigionAppTests-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-FirstTypeScriptApp-FirstTypeScriptAppTests/Pods-FirstTypeScriptApp-FirstTypeScriptAppTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-OrigionApp-OrigionAppTests/Pods-OrigionApp-OrigionAppTests-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FirstTypeScriptApp-FirstTypeScriptAppTests/Pods-FirstTypeScriptApp-FirstTypeScriptAppTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OrigionApp-OrigionAppTests/Pods-OrigionApp-OrigionAppTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -386,7 +467,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* FirstTypeScriptAppTests.m in Sources */,
+				00E356F31AD99517003FC87E /* OrigionAppTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,7 +485,7 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* FirstTypeScriptApp */;
+			target = 13B07F861A680F5B00A75B9A /* OrigionApp */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -412,14 +493,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-FirstTypeScriptApp-FirstTypeScriptAppTests.debug.xcconfig */;
+			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-OrigionApp-OrigionAppTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = FirstTypeScriptAppTests/Info.plist;
+				INFOPLIST_FILE = OrigionAppTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -433,17 +514,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FirstTypeScriptApp.app/FirstTypeScriptApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OrigionApp.app/OrigionApp";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-FirstTypeScriptApp-FirstTypeScriptAppTests.release.xcconfig */;
+			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-OrigionApp-OrigionAppTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = FirstTypeScriptAppTests/Info.plist;
+				INFOPLIST_FILE = OrigionAppTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -457,19 +538,19 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FirstTypeScriptApp.app/FirstTypeScriptApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OrigionApp.app/OrigionApp";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-FirstTypeScriptApp.debug.xcconfig */;
+			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-OrigionApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = FirstTypeScriptApp/Info.plist;
+				INFOPLIST_FILE = OrigionApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -481,7 +562,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = FirstTypeScriptApp;
+				PRODUCT_NAME = OrigionApp;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -490,12 +571,12 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-FirstTypeScriptApp.release.xcconfig */;
+			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-OrigionApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = FirstTypeScriptApp/Info.plist;
+				INFOPLIST_FILE = OrigionApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -507,7 +588,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = FirstTypeScriptApp;
+				PRODUCT_NAME = OrigionApp;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -655,7 +736,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "FirstTypeScriptAppTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "OrigionAppTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -664,7 +745,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "FirstTypeScriptApp" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "OrigionApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -673,7 +754,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "FirstTypeScriptApp" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "OrigionApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,

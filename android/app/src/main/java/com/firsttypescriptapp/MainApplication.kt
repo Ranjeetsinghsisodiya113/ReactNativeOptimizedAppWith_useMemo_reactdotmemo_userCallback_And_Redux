@@ -1,4 +1,4 @@
-package com.firsttypescriptapp
+package com.origion
 
 import android.app.Application
 import com.facebook.react.PackageList

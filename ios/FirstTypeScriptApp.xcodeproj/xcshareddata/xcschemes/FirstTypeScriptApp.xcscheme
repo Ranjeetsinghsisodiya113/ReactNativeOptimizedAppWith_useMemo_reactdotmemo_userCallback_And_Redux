@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "FirstTypeScriptApp.app"
-               BlueprintName = "FirstTypeScriptApp"
-               ReferencedContainer = "container:FirstTypeScriptApp.xcodeproj">
+               BuildableName = "OrigionApp.app"
+               BlueprintName = "OrigionApp"
+               ReferencedContainer = "container:OrigionApp.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "FirstTypeScriptAppTests.xctest"
-               BlueprintName = "FirstTypeScriptAppTests"
-               ReferencedContainer = "container:FirstTypeScriptApp.xcodeproj">
+               BuildableName = "OrigionAppTests.xctest"
+               BlueprintName = "OrigionAppTests"
+               ReferencedContainer = "container:OrigionApp.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "FirstTypeScriptApp.app"
-            BlueprintName = "FirstTypeScriptApp"
-            ReferencedContainer = "container:FirstTypeScriptApp.xcodeproj">
+            BuildableName = "OrigionApp.app"
+            BlueprintName = "OrigionApp"
+            ReferencedContainer = "container:OrigionApp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "FirstTypeScriptApp.app"
-            BlueprintName = "FirstTypeScriptApp"
-            ReferencedContainer = "container:FirstTypeScriptApp.xcodeproj">
+            BuildableName = "OrigionApp.app"
+            BlueprintName = "OrigionApp"
+            ReferencedContainer = "container:OrigionApp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
